@@ -29,15 +29,23 @@
 		F942D8232CE9AC8800C9188D /* gurukulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gurukulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F942D8672CEB096400C9188D /* Exceptions for "gurukul" folder in "gurukul" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F942D8072CE9AC8600C9188D /* gurukul */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F942D80A2CE9AC8600C9188D /* gurukul */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F942D8672CEB096400C9188D /* Exceptions for "gurukul" folder in "gurukul" target */,
+			);
 			path = gurukul;
-			sourceTree = "<group>";
-		};
-		F942D81C2CE9AC8800C9188D /* gurukulTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = gurukulTests;
 			sourceTree = "<group>";
 		};
 		F942D8262CE9AC8800C9188D /* gurukulUITests */ = {
@@ -76,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				F942D80A2CE9AC8600C9188D /* gurukul */,
-				F942D81C2CE9AC8800C9188D /* gurukulTests */,
 				F942D8262CE9AC8800C9188D /* gurukulUITests */,
 				F942D8092CE9AC8600C9188D /* Products */,
 			);
@@ -129,9 +136,6 @@
 			);
 			dependencies = (
 				F942D81B2CE9AC8800C9188D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F942D81C2CE9AC8800C9188D /* gurukulTests */,
 			);
 			name = gurukulTests;
 			packageProductDependencies = (
@@ -394,6 +398,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"gurukul/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gurukul/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -431,6 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"gurukul/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gurukul/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+        VStack{
             Text("Welcome to Gurukul LPV")
         }
-        .padding()
+            GurukulPage(url: URL(string: "https://gurukulweb.sharepoint.com/pages/myHomePage.aspx")!)
+                .edgesIgnoringSafeArea(.all)
     }
 }
 
